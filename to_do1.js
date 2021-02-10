@@ -190,3 +190,22 @@ function countdownFlex(lowNum, highNum, mult){
         }
     }
 }
+
+// finalCountdown NOT WORKING
+
+finalCountdown(3,37,4,9)
+
+function finalCountdown(param1, param2, param3, param4){
+    num = param2
+    while(num > param3){
+        if(num % param1 == 0){
+            if(num % param4 == 0) {
+                num -= 1
+            }
+            else{
+                console.log(num)
+                num -= 1
+            }
+        }
+    }
+}
