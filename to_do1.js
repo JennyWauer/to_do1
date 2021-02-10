@@ -166,3 +166,16 @@ function odds(){
     }
     console.log(count)
 }
+
+// countdownFlex NOT WORKING
+
+countdownFlex(3,58, 3)
+
+function countdownFlex(lowNum, highNum, mult){
+    for(var num=highNum; num<lowNum; num --){
+        console.log(num)
+        if(num % mult == 0){
+            console.log(num)
+        }
+    }
+}
