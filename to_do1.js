@@ -76,3 +76,22 @@ function birthday(numOne, numTwo){
 birthday(7,14)
 birthday(14,7)
 birthday(4,5)
+
+// leap year
+
+function leapYear(year){
+    if(year % 4 == 0){
+        if(year % 100 == 0) {
+            if (year % 400 == 0){
+                console.log("Leap Year")
+            }
+        else {
+            console.log("Leap Year")
+        }
+        }
+    }
+}
+
+leapYear(200)
+leapYear(2008)
+leapYear(400)
