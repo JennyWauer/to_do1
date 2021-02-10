@@ -154,3 +154,15 @@ know("world")
 function know(incoming){
     console.log(incoming)
 }
+
+// odds
+
+odds()
+
+function odds(){
+    let count = 0
+    for(var num=-300000; num<300001; num++){
+        count += 1
+    }
+    console.log(count)
+}
