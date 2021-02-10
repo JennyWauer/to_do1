@@ -110,3 +110,17 @@ function printCount(){
     }
     console.log(count)
 }
+
+// multiplesSix
+
+multiplesSix()
+
+function multiplesSix(){
+    num = 0
+    while(num<60001){
+        if(num % 6 == 0){
+            console.log(num)
+        }
+        num += 1
+    }
+}
