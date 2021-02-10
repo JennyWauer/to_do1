@@ -58,6 +58,21 @@ function whileInt(){
     num = 2000
     while(num < 5281){
         console.log(num)
-        num += 1
+        num += 1;
     }
 }
+
+// birthday
+
+function birthday(numOne, numTwo){
+    if ((numOne == 7 && numTwo == 14) || (numTwo == 7 || numOne == 14) || (numOne == 14 && numTwo == 7) || (numTwo == 14 || numOne == 7)){
+        console.log("How did you know?");
+    }
+    else {
+        console.log("Just another day...");
+    }
+}
+
+birthday(7,14)
+birthday(14,7)
+birthday(4,5)
