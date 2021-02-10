@@ -22,3 +22,16 @@ function printOne() {
         console.log(num)
     }
 }
+
+// be happy
+
+beCheerful()
+
+function beCheerful() {
+    const greeting = "good morning!"
+    let num = 1
+    while (num < 99) {
+        console.log(greeting)
+        num+= 1
+    }
+}
