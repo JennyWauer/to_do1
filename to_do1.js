@@ -49,3 +49,15 @@ function multiples() {
         }
     }
 }
+
+// whileInt
+
+whileInt()
+
+function whileInt(){
+    num = 2000
+    while(num < 5281){
+        console.log(num)
+        num += 1
+    }
+}
