@@ -167,6 +167,18 @@ function odds(){
     console.log(count)
 }
 
+// countdown
+
+countdown()
+
+function countdown(){
+    for(var num=2016; num>0; num--){
+        if(num % 4 == 0){
+            console.log(num)
+        }
+    }
+}
+
 // countdownFlex NOT WORKING
 
 countdownFlex(3,58, 3)
