@@ -35,3 +35,15 @@ function beCheerful() {
         num+= 1
     }
 }
+
+// multiples
+
+multiples()
+
+function multiples() {
+    for(var num=-300; num<1; num++){
+        if(num != -3){
+            console.log(num);
+        }
+    }
+}
