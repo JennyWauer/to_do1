@@ -144,3 +144,13 @@ function codingDojo(){
         }
     }
 }
+
+// know
+
+know(8)
+know("Hello")
+know("world")
+
+function know(incoming){
+    console.log(incoming)
+}
