@@ -95,3 +95,18 @@ function leapYear(year){
 leapYear(200)
 leapYear(2008)
 leapYear(400)
+
+// print & count
+
+printCount()
+
+function printCount(){
+    count = 0
+    for(var num = 512; num < 4097; num++){
+        if(num % 5 == 0){
+            console.log(num)
+            count += 1
+        }
+    }
+    console.log(count)
+}
