@@ -124,3 +124,23 @@ function multiplesSix(){
         num += 1
     }
 }
+
+// Coding Dojo
+
+codingDojo()
+
+function codingDojo(){
+    for(var num=1; num<101; num++){
+        if(num % 5 == 0){
+            if(num % 10 == 0){
+                console.log("Coding Dojo")
+            }
+            else{
+                console.log("Coding")
+            }
+        }
+        else {
+            console.log(num)
+        }
+    }
+}
