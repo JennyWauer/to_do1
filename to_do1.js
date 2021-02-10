@@ -179,13 +179,12 @@ function countdown(){
     }
 }
 
-// countdownFlex NOT WORKING
+// countdownFlex
 
 countdownFlex(3,58, 3)
 
 function countdownFlex(lowNum, highNum, mult){
-    for(var num=highNum; num<lowNum; num --){
-        console.log(num)
+    for(var num=highNum; num>lowNum; num--){
         if(num % mult == 0){
             console.log(num)
         }
